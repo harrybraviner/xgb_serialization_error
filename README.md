@@ -53,3 +53,7 @@ Stack trace returned 6 entries:
 	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
 	at java.lang.Thread.run(Thread.java:748)
 ```
+
+I've tested this for `'booster': 'dart'` and `'booster': 'gbtree'` in the params in python.
+I've also tried switching the y-data generation to a binary variable and setting `'objective'` to `'binary:logistic'`.
+I saw the same errors in every case.
